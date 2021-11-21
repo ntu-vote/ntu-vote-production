@@ -3,6 +3,7 @@
 ## To clone this repository along with submodules
 ```
 git clone https://github.com/ntu-vote/ntu-vote-production
+cd ntu-vote-production
 git submodule init
 git submodule update
 ```
