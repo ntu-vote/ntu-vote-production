@@ -14,7 +14,7 @@ git submodule update
 
 ## Frontend
 1. Go into frontend directory
-2. Configure `frontend/.env` to edit the *PORT* and *REACT_APP_PUBLIC_URL* parameters according to your environment (set the latter to localhost if you are running locally)
+2. Configure `frontend/.env` to edit the *PORT* and *REACT_APP_PUBLIC_URL* parameters according to your environment (set the latter to *http://localhost:3000* if you are running locally)
 3. Install node_modules with `npm install`
 4. Start frontend server with `npm start`
 
