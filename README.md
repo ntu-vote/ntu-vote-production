@@ -12,13 +12,15 @@ git submodule update
 + postgresql ^14
 
 ## Frontend
-1. Configure `/frontend/.env` to edit the *PORT* and *REACT_APP_PUBLIC_URL* parameters according to your environment (set the latter to localhost if you are running locally)
-2. Install node_modules with `npm install`
-3. Start frontend server with `npm start`
+1. Go into frontend directory
+2. Configure `frontend/.env` to edit the *PORT* and *REACT_APP_PUBLIC_URL* parameters according to your environment (set the latter to localhost if you are running locally)
+3. Install node_modules with `npm install`
+4. Start frontend server with `npm start`
 
 ## Backend
-1. Copy file `ormconfig.json.js-example` to `ormconfig.json` and configure it to connect to an existing clean database which the user has access to.
-2. Schema `ntu_vote` should exist in the database specified in `ormconfig.json`
+1. Go into backend directory
+1. Copy file `backend/ormconfig.json.js-example` to `backend/ormconfig.json` and configure it to connect to an existing clean database which the user has access to.
+2. Schema `ntu_vote` should exist in the database specified in `backend/ormconfig.json`
 ```
 \c *db-name*
 CREATE SCHEMA IF NOT EXISTS ntu_vote
